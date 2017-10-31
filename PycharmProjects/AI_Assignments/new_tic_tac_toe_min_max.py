@@ -16,7 +16,7 @@ def score(board,me,opponent,d):
             return 10-d
         elif board[0][0] == opponent:
             return -10+d
-    if(board[0][2]==board[1][1] and board[1][1]==board[2][0]and board[2][2]!='_'):
+    if(board[0][2]==board[1][1] and board[1][1]==board[2][0]and board[2][0]!='_'):
         if(board[0][2])==me:
             return 10-d
         elif board[0][2] == opponent:
