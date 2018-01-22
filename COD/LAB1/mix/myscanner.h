@@ -1,0 +1,9 @@
+#define IDENTIFIER 1
+#define NUMBER 2
+#define KEYWORD 3
+#define OTHER 4
+#define NEWLINE 5
+#define IF 6
+#define ELSE 7
+#define WHILE 8
+#define FOR 9
